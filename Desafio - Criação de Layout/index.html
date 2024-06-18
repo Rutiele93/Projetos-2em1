@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Layout</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row corpo">
+            <div class="col-md-3">
+                <div class="menu-sidebar">
+                    <div class="menu-lateral">
+                        <div class="img">
+                            <img src="assets/img/img-perfil.jpg" alt="Ícone Padrão">
+                        </div>
+                        <h2 class="text-center">Lunna Rasteli</h2>
+                    </div>
+                    <div class="menu-list text-center">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="#">Link 1</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Link 2</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Link 3</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 banner-sec">
+                <h1 class="text-center">Lista de Tarefas</h1>                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 Services-tab item">
+                        <div class="folded-corner service_tab_1">
+                            <div class="text task-section">
+                                <h2 class="text-center">Dia</h2>
+                                <ul id="task-list-extra-day">
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                </ul>
+                                <input type="text" id="new-task-extra-day" placeholder="Adicionar nova tarefa">
+                                <button class="btn btn-primary add-task"
+                                    onclick="addTask('extra-day')">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 Services-tab item">
+                        <div class="folded-corner service_tab_1">
+                            <div class="text task-section">
+                                <h2 class="text-center">Noite</h2>
+                                <ul id="task-list-extra-night">
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                </ul>
+                                <input type="text" id="new-task-extra-night" placeholder="Adicionar nova tarefa">
+                                <button class="btn btn-primary add-task"
+                                    onclick="addTask('extra-night')">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

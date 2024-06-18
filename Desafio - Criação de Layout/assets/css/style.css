@@ -1,0 +1,110 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.menu-sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.menu-lateral .img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-lateral img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.menu-lateral h2 {
+    color: #1fb5ace6;
+}
+
+.menu-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list ul li a {
+    color: #1fb5ace6;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #495057;
+}
+
+h1 {
+    color: #1fb5ace6;
+}
+
+.menu-list ul li a:hover {
+    background-color: #495057;
+}
+
+.banner-sec {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000001a;
+}
+
+.banner-sec h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #4f8581e6;
+    text-align: center;
+}
+
+.task-section {
+    margin-bottom: 30px;
+}
+
+
+#extra-day,
+#extra-night {
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.folded-corner {
+    padding: 25px 25px;
+    position: relative;
+    font-size: 90%;
+    text-decoration: none;
+    color: #999;
+    background: transparent;
+    transition: all ease .5s;
+    border: 1px solid rgba(102, 233, 224, 0.9);
+}
+
+.folded-corner:hover {
+    background-color: #44e7dce6;
+}
+
+.folded-corner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0px 0px 0;
+    border-color: #ddd #000;
+    transition: all ease .3s;
+}
